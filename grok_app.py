@@ -2,7 +2,6 @@ import webview
 import json
 import os
 import sys
-import threading
 import logging
 import time
 
