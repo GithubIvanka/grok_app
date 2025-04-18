@@ -1,0 +1,20 @@
+2025-04-18 12:50:29,520 - INFO - Cookies успешно восстановлены
+2025-04-18 12:50:34,744 - ERROR - Ошибка сохранения cookies: 'NoneType' object is not iterable
+2025-04-18 12:50:37,836 - ERROR - [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\sibitti\\AppData\\Local\\Temp\\tmpyq259q0j\\EBWebView\\Default\\EdgeEDrop\\EdgeEDropSQLite.db'
+Traceback (most recent call last):
+  File "D:\Source\dev\python\grok_app\.venv\Lib\site-packages\webview\platforms\edgechromium.py", line 94, in clear_user_data
+    shutil.rmtree(self.user_data_folder)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 633, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\sibitti\\AppData\\Local\\Temp\\tmpyq259q0j\\EBWebView\\Default\\EdgeEDrop\\EdgeEDropSQLite.db'
+2025-04-18 12:52:17,353 - ERROR - Ошибка создания окна webview: create_window() got an unexpected keyword argument 'user_data_path'
+2025-04-18 12:52:28,156 - ERROR - Ошибка создания окна webview: create_window() got an unexpected keyword argument 'user_data_path'
+2025-04-18 12:53:43,698 - INFO - Cookies успешно восстановлены
+2025-04-18 12:53:49,034 - ERROR - Ошибка сохранения cookies: 'NoneType' object is not iterable
+2025-04-18 12:53:49,036 - INFO - Окно webview уничтожено
+2025-04-18 12:53:49,448 - INFO - Webview успешно запущен
